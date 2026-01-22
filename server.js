@@ -3,7 +3,7 @@ import fs from "fs";
 
 const app = express();
 const PORT = 3000;
-const dataPath = "./hasil_scrapper_mrtj.json";
+const dataPath = "./hasil_scrapper_mrtj (1).json";
 
 // Baca data JSON
 const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
